@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif; /* Define a fonte usada */
+    background-color: #121212; /* Fundo preto */
+    display: flex; /* Ativa flexbox para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Ocupa toda a altura da tela */
+    margin: 0; /* Remove margens padrão */
+}
+
+.container {
+    background: #1e1e1e; /* Fundo cinza escuro */
+    padding: 25px; /* Espaçamento interno */
+    border-radius: 12px; /* Bordas arredondadas */
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.6); /* Sombra para destacar */
+    width: 320px; /* Largura fixa */
+    transition: transform 0.3s ease; /* Animação suave ao passar o mouse */
+}
+
+.container:hover {
+    transform: scale(1.02); /* Efeito de zoom leve ao passar o mouse */
+}
+
+h2 {
+    text-align: center; /* Centraliza o título */
+    color: #ffffff; /* Branco */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+label {
+    display: block; /* Ocupa toda a linha */
+    margin-top: 12px; /* Espaço acima */
+    font-weight: 600; /* Texto em negrito */
+    color: #cccccc; /* Cinza claro */
+}
+
+input {
+    width: 100%; /* Ocupa toda a largura */
+    padding: 10px; /* Espaçamento interno */
+    margin-top: 6px; /* Espaço acima */
+    border: 1px solid #333; /* Borda escura */
+    border-radius: 6px; /* Bordas arredondadas */
+    background: #2a2a2a; /* Fundo escuro */
+    color: #fff; /* Texto branco */
+    outline: none; /* Remove contorno padrão */
+    transition: border-color 0.3s; /* Animação suave na borda */
+}
+
+input:focus {
+    border-color: #4CAF50; /* Verde ao focar */
+}
+
+button {
+    margin-top: 20px; /* Espaço acima */
+    width: 100%; /* Ocupa toda a largura */
+    padding: 12px; /* Espaçamento interno */
+    background: #1d13d7; /* Verde */
+    color: white; /* Texto branco */
+    border: none; /* Remove borda padrão */
+    border-radius: 6px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de clique */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background 0.3s, transform 0.2s; /* Animação suave */
+}
+
+button:hover {
+    background: #5547d2; /* Verde mais escuro ao passar o mouse */
+    transform: translateY(-2px); /* Efeito de clique */
+}
+
+.resultado {
+    margin-top: 20px; /* Espaço acima */
+    text-align: center; /* Centraliza texto */
+    font-weight: bold; /* Negrito */
+    color: #ffffff; /* Branco */
+    font-size: 18px; /* Tamanho da fonte */
+}
